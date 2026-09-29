@@ -32,7 +32,8 @@ impl Inventory {
     }
 }
 
-fn main() {
+
+pub fn closures_example() {
     let store = Inventory {
         shirts: vec![ShirtColor::Blue, ShirtColor::Red]
     };
